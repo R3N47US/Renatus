@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Noto Sans";
+    font-weight: 400;
+    src: url("/font/notosans-regular-webfont.woff2") format("woff2"), 
+         url("/font/notosans-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    font-weight: 500;
+    src: url("/font/notosans-medium-webfont.woff2") format("woff2"), 
+         url("/font/notosans-medium-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    font-weight: 700;
+    src: url("/font/notosans-bold-webfont.woff2") format("woff2"), 
+         url("/font/notosans-bold-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    font-style: italic;
+    font-weight: 400;
+    src: url("/font/notosans-italic-webfont.woff2") format("woff2"), 
+         url("/font/notosans-italic-webfont.woff") format("woff");
+}
+
+:root {
+    --font-family: "Noto Sans";
+    --background-color: #272a34;
+    --primary-text-color: #eeeeec;
+    --secondary-text-color: #367bf0;
+    --heading-color: #ffffff;
+    --color-renatus-black: #010409;
+    --color-renatus-blue: #2777ff;
+    --color-renatus-purple: #a400a4;
+    --color-renatus-orange: #fea44c;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
+    font-family: var(--font-family);
+}
